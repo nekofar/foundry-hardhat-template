@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "build": "forge build --sizes",
     "test": "pnpm run '/^test:.*/'",
-    "test:forge": "forge test",
+    "test:forge": "forge test -vvv",
     "test:hardhat": "hardhat test"
   },
   "keywords": [],
