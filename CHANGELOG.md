@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2024-01-20
+
+### Miscellaneous Tasks
+
+- Update repository address on `template` workflow
+
 ## [1.0.0-alpha.0] - 2024-01-20
 
 ### Testing
