@@ -28,7 +28,7 @@
     "chai": "4.3.7",
     "ethers": "6.4.0",
     "hardhat": "2.19.4",
-    "ts-node": "8.0.0",
+    "ts-node": "10.9.2",
     "typechain": "8.3.1",
     "typescript": "5.0.4"
   }
