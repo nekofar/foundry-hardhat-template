@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  flat: '>=5.0.1'
+
 devDependencies:
   '@nomicfoundation/hardhat-ethers':
     specifier: 3.0.5
@@ -2349,13 +2352,6 @@ packages:
     dependencies:
       locate-path: 6.0.0
       path-exists: 4.0.0
-    dev: true
-
-  /flat@4.1.1:
-    resolution: {integrity: sha512-FmTtBsHskrU6FJ2VxCnsDb84wu9zhmO3cUX2kGFb5tuwhfXxGciiT0oRY+cck35QmG+NmGh5eLz6lLCpWTqwpA==}
-    hasBin: true
-    dependencies:
-      is-buffer: 2.0.5
     dev: true
 
   /flat@5.0.2:
@@ -5044,7 +5040,7 @@ packages:
     resolution: {integrity: sha512-W9tKgmSn0DpSatfri0nx52Joq5hVXgeLiqR/5G0sZNDoLZFOr/xjBUDcShCOGNsBnEMNo1KAMBkTej1Hm62HTw==}
     engines: {node: '>=6'}
     dependencies:
-      flat: 4.1.1
+      flat: 5.0.2
       lodash: 4.17.21
       yargs: 13.3.2
     dev: true
