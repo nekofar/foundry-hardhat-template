@@ -53,10 +53,10 @@ jobs:
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v4.1.1 # Action for checking out a repo.
+        uses: actions/checkout@v4.1.1
 
       - name: Setup Node.js Environment
-        uses: actions/setup-node@v4.0.1 # Action for setting up Node environment.
+        uses: actions/setup-node@v4.0.1
         with:
           node-version: ^18
 
@@ -66,7 +66,7 @@ jobs:
           version: nightly
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v2.4.0 # Action for setting up pnpm.
+        uses: pnpm/action-setup@v2.4.0
         id: pnpm-install
         with:
           version: ^8
@@ -78,7 +78,7 @@ jobs:
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Cache pnpm Store
-        uses: actions/cache@v4.0.0 # Action provides caching dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v4.0.0
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
@@ -86,15 +86,14 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       # Installs all dependencies specified in the project's package.json file.
-      - name: Install dependencies using pnpm
+      - name: Install pnpm dependencies
         run: pnpm install
 
-      # This compiles the application in optimized production mode and output it to the build folder.
-      - name: Build the application and export it
+      - name: Build the smart contracts
         run: pnpm run build
 
-      # Runs unit tests for the application using Jest.
-      - name: Execute tests using Jest
+      # Runs unit tests for the application using Hardhat and Forge.
+      - name: Execute tests using Hardhat and Forge
         run: pnpm run test
 
   release:
