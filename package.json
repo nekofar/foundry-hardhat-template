@@ -1,0 +1,28 @@
+{
+  "name": "foundry-hardhat-template",
+  "version": "1.0.0-alpha.0",
+  "description": "A template for create smart contracts using Foundry and Hardhat.",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "forge build --sizes",
+    "test": "pnpm run '/^test:.*/'",
+    "test:forge": "forge test -vvv",
+    "test:hardhat": "hardhat test"
+  },
+  "keywords": [],
+  "author": "Milad Nekofar <milad@nekofar.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-foundry": "1.1.1",
+    "@nomicfoundation/hardhat-toolbox": "4.0.0",
+    "hardhat": "2.19.4"
+  },
+  "resolutions": {
+    "flat": ">=5.0.1",
+    "get-func-name": ">=2.0.1",
+    "minimatch": ">=3.0.5"
+  }
+}
