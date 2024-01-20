@@ -23,7 +23,7 @@
     "@typechain/ethers-v6": "0.5.0",
     "@typechain/hardhat": "9.0.0",
     "@types/chai": "4.3.4",
-    "@types/mocha": "9.1.0",
+    "@types/mocha": "10.0.6",
     "@types/node": "20.11.5",
     "chai": "4.3.7",
     "ethers": "6.4.0",
