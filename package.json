@@ -31,5 +31,12 @@
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
     "typescript": "5.3.3"
+  },
+  "resolutions": {
+    "flat": ">=5.0.1",
+    "minimatch": ">=3.0.5",
+    "debug": ">=3.2.7",
+    "word-wrap": ">=1.2.4",
+    "tough-cookie": ">=4.1.3"
   }
 }
