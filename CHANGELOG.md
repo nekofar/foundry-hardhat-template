@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2024-01-20
+
+### Testing
+
+- Replace `Counter` test file by typescript version
+
+### Miscellaneous Tasks
+
+- Add typescript configuration file
+- Replace Hardhat configuration with typescript one
+
+### Revert
+
+- Add some packages with high security risks to resolutions
+
 ## [1.0.0-alpha.1] - 2024-01-20
 
 ### Miscellaneous Tasks
