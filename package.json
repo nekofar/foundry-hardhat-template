@@ -7,12 +7,14 @@
     "test": "test"
   },
   "scripts": {
+    "prebuild": "pnpm run lint",
     "build": "pnpm run '/^build:.*/'",
     "build:forge": "forge build --sizes",
     "build:hardhat": "hardhat compile",
     "lint": "pnpm run '/^lint:.*/'",
     "lint:forge": "forge fmt --check",
     "lint:hardhat": "hardhat check",
+    "pretest": "pnpm run build",
     "test": "pnpm run '/^test:.*/'",
     "test:forge": "forge test -vvv",
     "test:hardhat": "hardhat test --typecheck"
@@ -35,6 +37,11 @@
     "chai": "4.4.1",
     "ethers": "6.10.0",
     "hardhat": "2.19.4",
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0",
+    "prettier": "3.2.3",
+    "prettier-plugin-solidity": "1.3.1",
+    "solhint": "4.1.1",
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
     "typescript": "5.3.3"
