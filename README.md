@@ -1,4 +1,4 @@
-# Foundry and Hardhat
+# Foundry and Hardhat Template
 
 [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/nekofar/foundry-hardhat-template?include_prereleases)](https://github.com/nekofar/foundry-hardhat-template/releases)
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/nekofar/foundry-hardhat-template/build.yml)](https://github.com/nekofar/foundry-hardhat-template/actions/workflows/build.yml)
@@ -10,3 +10,42 @@
 > [!WARNING]
 > Please note that the project is currently in an experimental phase, and it is subject to significant changes as it
 > progresses.
+
+## Description
+
+This template is designed to streamline the process of creating smart contracts using Foundry and Hardhat. It provides a
+robust starting point for smart contract development, integrating the best practices and tools needed to build, test,
+and deploy contracts efficiently.
+
+## Using This Template
+
+You can use this repository as a template to create a new GitHub repository with the same directory structure and files.
+Here's how:
+
+1. On the [repository page](https://github.com/nekofar/foundry-hardhat-template), click the **Use this template**
+   button.
+2. Choose the owner for the new repository and enter a repository name.
+3. Optionally, add a description for your repository.
+4. Choose the repository visibility (Public or Private).
+5. Click **Create repository from template** to create your new repository.
+
+After creating your repository from this template, clone it and install dependencies:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+cd YOUR-REPOSITORY
+pnpm install
+```
+
+## Usage
+
+Here's how you can use this template:
+
+- **Building Contracts**: Run `pnpm run build` to compile your smart contracts.
+- **Running Tests**: Execute `pnpm run test` to run tests for your contracts using Hardhat and Forge.
+- **Linting**: Use `pnpm run lint` to lint your Solidity code.
+
+## License
+
+This project is licensed under the Apache-2.0 License - see
+the [LICENSE](https://github.com/nekofar/foundry-hardhat-template/blob/master/LICENSE) file for details.
