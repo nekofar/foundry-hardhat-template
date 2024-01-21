@@ -10,6 +10,9 @@
     "build": "pnpm run '/^build:.*/'",
     "build:forge": "forge build --sizes",
     "build:hardhat": "hardhat compile",
+    "lint": "pnpm run '/^lint:.*/'",
+    "lint:forge": "forge fmt --check",
+    "lint:hardhat": "hardhat check",
     "test": "pnpm run '/^test:.*/'",
     "test:forge": "forge test -vvv",
     "test:hardhat": "hardhat test --typecheck"
