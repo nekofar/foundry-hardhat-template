@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.6] - 2024-01-21
+
+### Miscellaneous Tasks
+
+- Update build script on `package.json`
+- Change minimum node engine to 18 on `package.json`
+- Import `hardhat-solhint` on `hardhat.config.ts`
+- Add new scripts for linting solidity code in `package.json`
+
 ## [1.0.0-alpha.5] - 2024-01-20
 
 ### Bug Fixes
