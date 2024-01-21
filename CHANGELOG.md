@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2024-01-21
+
+### Documentation
+
+- Add more description and usage guide to the `README.md`
+
+### Miscellaneous Tasks
+
+- Add `*.sol` files to the `.lintstagedrc`
+- Add `lint-staged` to the Husky `pre-commit`
+- Add a new configuration file for `prettier`
+- Add a new configuration file for `solhint`
+- Add new `prebuild` and `pretest` scripts to `package.json`
+- Change default node version for `nvm` to `lts/iron`
+- Add `gas_reports` for all contract in `foundry.toml`
+
 ## [1.0.0-alpha.6] - 2024-01-21
 
 ### Miscellaneous Tasks
