@@ -1,4 +1,4 @@
 {
   "compile_force_framework": "hardhat",
-  "filter_paths": "lib"
+  "filter_paths": "lib,node_modules"
 }
