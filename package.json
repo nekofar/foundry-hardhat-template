@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "directories": {
     "lib": "lib",
@@ -8,14 +8,15 @@
   },
   "scripts": {
     "prebuild": "pnpm run lint",
-    "build": "pnpm run '/^build:.*/'",
+    "build": "pnpm run --sequential '/^build:.*/'",
     "build:forge": "forge build --sizes",
     "build:hardhat": "hardhat compile",
-    "lint": "pnpm run '/^lint:.*/'",
+    "lint": "pnpm run --sequential '/^lint:.*/'",
     "lint:forge": "forge fmt --check",
     "lint:hardhat": "hardhat check",
+    "lint:slither": "command -v slither >/dev/null 2>&1 && slither .",
     "pretest": "pnpm run build",
-    "test": "pnpm run '/^test:.*/'",
+    "test": "pnpm run --sequential '/^test:.*/'",
     "test:forge": "forge test -vvv",
     "test:hardhat": "hardhat test --typecheck"
   },
@@ -39,7 +40,7 @@
     "hardhat": "2.19.4",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
-    "prettier": "3.2.3",
+    "prettier": "3.2.4",
     "prettier-plugin-solidity": "1.3.1",
     "solhint": "4.1.1",
     "ts-node": "10.9.2",
