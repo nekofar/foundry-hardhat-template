@@ -8,15 +8,15 @@
   },
   "scripts": {
     "prebuild": "pnpm run lint",
-    "build": "pnpm run '/^build:.*/'",
+    "build": "pnpm run --sequential '/^build:.*/'",
     "build:forge": "forge build --sizes",
     "build:hardhat": "hardhat compile",
-    "lint": "pnpm run '/^lint:.*/'",
+    "lint": "pnpm run --sequential '/^lint:.*/'",
     "lint:forge": "forge fmt --check",
     "lint:hardhat": "hardhat check",
     "lint:slither": "command -v slither >/dev/null 2>&1 && slither .",
     "pretest": "pnpm run build",
-    "test": "pnpm run '/^test:.*/'",
+    "test": "pnpm run --sequential '/^test:.*/'",
     "test:forge": "forge test -vvv",
     "test:hardhat": "hardhat test --typecheck"
   },
