@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2024-01-22
+
+### Miscellaneous Tasks
+
+- Add `slither` to the linting follow on `package.json`
+- Change pragma solidity version from 0.8.13 to 0.8.18
+- Add a new configuration file for `slither`
+- Add forge formatter to `.lintstagerc`
+- Change back `printWidth` to the default on `.prettierrc`
+- Change compiler version to `0.18.18` on `foundry.toml`
+- Change scripts to sequential instead of parallel on `package.json`
+- Add `node_modules` to the `libs` on `foundry.toml`
+- Change `compile_force_framework` to `foundry` on `slither.config.json`
+
 ## [1.0.0-alpha.7] - 2024-01-21
 
 ### Documentation
