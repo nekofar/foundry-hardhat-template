@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.9] - 2024-01-23
+
+### Miscellaneous Tasks
+
+- Improve coding style configs for `prettier` and `forge`
+- Remove `forge` from linting and formatting
+- Rename `.lintstagedrc` to `.lintstagedrc.json` for readability
+- Rename `.prettierrc` to `.prettierrc.json` for readability
+- Add a new `.editorconfig` file for better editor compatibility
+- Add `husky` to the `prepare` script on `package.json`
+
+### Styling
+
+- Reformat code for better readability
+
 ## [1.0.0-alpha.8] - 2024-01-22
 
 ### Miscellaneous Tasks
