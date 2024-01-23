@@ -12,7 +12,6 @@
     "build:forge": "forge build --sizes",
     "build:hardhat": "hardhat compile",
     "lint": "pnpm run --sequential '/^lint:.*/'",
-    "lint:forge": "forge fmt --check",
     "lint:hardhat": "hardhat check",
     "lint:slither": "command -v slither >/dev/null 2>&1 && slither .",
     "pretest": "pnpm run build",
