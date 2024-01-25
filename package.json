@@ -17,7 +17,7 @@
     "lint:slither": "command -v slither >/dev/null 2>&1 && slither .",
     "pretest": "pnpm run build",
     "test": "pnpm run --sequential '/^test:.*/'",
-    "test:forge": "forge test -vvv",
+    "test:forge": "forge test -vvvv",
     "test:hardhat": "hardhat test --typecheck"
   },
   "keywords": [],
