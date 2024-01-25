@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.9",
+  "version": "1.0.0-alpha.10",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "directories": {
     "lib": "lib",
@@ -17,7 +17,7 @@
     "lint:slither": "command -v slither >/dev/null 2>&1 && slither .",
     "pretest": "pnpm run build",
     "test": "pnpm run --sequential '/^test:.*/'",
-    "test:forge": "forge test -vvv",
+    "test:forge": "forge test -vvvv",
     "test:hardhat": "hardhat test --typecheck"
   },
   "keywords": [],

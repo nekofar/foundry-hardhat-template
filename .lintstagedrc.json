@@ -1,3 +1,6 @@
 {
-  "*.sol": ["prettier --write"]
+  "*.sol": [
+    "forge fmt",
+    "prettier --write"
+  ]
 }
