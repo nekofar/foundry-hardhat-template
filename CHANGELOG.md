@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2024-01-28
+
+### Miscellaneous Tasks
+
+- Install `slither` if its not available
+- Migrate huskey configs to the new major version
+- Update `node` engine version on `package.json`
+
 ## [1.0.0-alpha.10] - 2024-01-25
 
 ### Miscellaneous Tasks
