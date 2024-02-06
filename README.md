@@ -24,12 +24,12 @@ Here's how:
 
 1. On the [repository page](https://github.com/nekofar/foundry-hardhat-template), click the **Use this template**
    button.
-2. Choose the owner for the new repository and enter a repository name.
+2. Choose the owner of the new repository and enter a repository name.
 3. Optionally, add a description for your repository.
 4. Choose the repository visibility (Public or Private).
 5. Click **Create repository from template** to create your new repository.
 
-After creating your repository from this template, clone it and install dependencies:
+After creating your repository from this template, clone it and install the dependencies:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
