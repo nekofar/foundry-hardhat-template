@@ -37,7 +37,7 @@
     "@types/node": "20.11.17",
     "chai": "4.4.1",
     "ethers": "6.11.1",
-    "hardhat": "2.19.5",
+    "hardhat": "2.20.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
