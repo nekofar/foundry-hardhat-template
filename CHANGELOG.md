@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.13] - 2024-02-16
+
+### Documentation
+
+- Update README.md to solve some typo issues (#36)
+
+### Miscellaneous Tasks
+
+- Enable `engine-strict` on `.npmrc` file
+- Add `pnpm` to the engines on `package.json`
+- Add `preinstall` to prevent devs from using other package managers
+- Add `postinstall` to run forge dependency manager after install
+
 ## [1.0.0-alpha.12] - 2024-01-31
 
 ### Bug Fixes
