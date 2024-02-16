@@ -8,6 +8,7 @@
   },
   "scripts": {
     "preinstall": "npx -y only-allow pnpm",
+    "postinstall": "test \"$CI\" != \"true\" && forge install",
     "prepare": "husky",
     "prebuild": "pnpm run lint",
     "build": "pnpm run --sequential '/^build:.*/'",
