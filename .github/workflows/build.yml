@@ -61,7 +61,7 @@ jobs:
           node-version: ^18
 
       - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1.1.0
+        uses: foundry-rs/foundry-toolchain@v1.1.1
         with:
           version: nightly
 
