@@ -24,7 +24,7 @@ jobs:
     steps:
       # The first step is to check out the repository code
       - name: Checking out repository code
-        uses: actions/checkout@v4.1.1 # Action for checking out a repo.
+        uses: actions/checkout@v4.1.2 # Action for checking out a repo.
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
@@ -53,7 +53,7 @@ jobs:
 
     steps: # The sequence of tasks that make up a job.
       - name: Checking out repository code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.2
 
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4.0.2
@@ -61,7 +61,7 @@ jobs:
           node-version: ^18
 
       - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1.1.0
+        uses: foundry-rs/foundry-toolchain@v1.2.0
         with:
           version: nightly
 
@@ -78,7 +78,7 @@ jobs:
           echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - name: Cache pnpm Store
-        uses: actions/cache@v4.0.0
+        uses: actions/cache@v4.0.1
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
@@ -112,13 +112,13 @@ jobs:
     steps:
       # Checkout the repository code
       - name: Checkout code
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.2
         with:
           fetch-depth: 0 # Fetches all history for all branches and tags
 
       # Generate a changelog for the new release using Git
       - name: Generate a changelog
-        uses: orhun/git-cliff-action@v2.3.0
+        uses: orhun/git-cliff-action@v3.0.2
         id: git-cliff
         with:
           config: cliff.toml # The configuration file for git-cliff
@@ -147,7 +147,7 @@ jobs:
 
       # Create a new GitHub release using the gathered information
       - name: Create the release
-        uses: nekofar/create-github-release@v1.0.13
+        uses: nekofar/create-github-release@v1.0.14
         with:
           tag: v${{ steps.release.outputs.version }} # The name of the tag to be released
           title: v${{ steps.release.outputs.version }} # The title for the release

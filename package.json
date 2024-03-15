@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.14",
+  "version": "1.0.0-alpha.15",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "directories": {
     "lib": "lib",
@@ -30,16 +30,16 @@
     "@nomicfoundation/hardhat-ethers": "3.0.5",
     "@nomicfoundation/hardhat-foundry": "1.1.1",
     "@nomicfoundation/hardhat-network-helpers": "1.0.10",
-    "@nomicfoundation/hardhat-toolbox": "4.0.0",
+    "@nomicfoundation/hardhat-toolbox": "5.0.0",
     "@nomiclabs/hardhat-solhint": "3.0.1",
     "@typechain/ethers-v6": "0.5.1",
     "@typechain/hardhat": "9.1.0",
     "@types/chai": "4.3.11",
     "@types/mocha": "10.0.6",
-    "@types/node": "20.11.19",
+    "@types/node": "20.11.27",
     "chai": "4.4.1",
     "ethers": "6.11.1",
-    "hardhat": "2.20.1",
+    "hardhat": "2.22.1",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
@@ -47,7 +47,7 @@
     "solhint": "4.1.1",
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "resolutions": {
     "flat": ">=5.0.1",
