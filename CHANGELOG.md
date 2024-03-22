@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.16] - 2024-03-22
+
+### Miscellaneous Tasks
+
+- Add `.venv` folder to the `.gitignore` file
+
 ## [1.0.0-alpha.15] - 2024-03-15
 
 ### Bug Fixes
