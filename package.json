@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.15",
+  "version": "1.0.0-alpha.16",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "directories": {
     "lib": "lib",
