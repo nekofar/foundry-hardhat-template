@@ -31,6 +31,11 @@ jobs:
       - name: Set up Node.js environment
         uses: actions/setup-node@v4.0.2
 
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1.2.0
+        with:
+          version: nightly
+
       # Install pnpm package manager.
       - name: Install pnpm package manager
         uses: pnpm/action-setup@v4.0.0
