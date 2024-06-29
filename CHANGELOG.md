@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.20] - 2024-06-29
+
+### Miscellaneous Tasks
+
+- Upgrade pnpm version in github actions workflow
+- Add Foundry installation to GitHub Actions workflow
+
 ## [1.0.0-alpha.19] - 2024-06-29
 
 ### Miscellaneous Tasks
