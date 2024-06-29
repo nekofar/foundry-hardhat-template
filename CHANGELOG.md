@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.17] - 2024-06-29
+
+### Miscellaneous Tasks
+
+- Add timezone to the Husky hooks
+- Update solidity version to ^0.8.26
+- Update pnpm version in GitHub Actions workflow
+
 ## [1.0.0-alpha.16] - 2024-03-22
 
 ### Miscellaneous Tasks
