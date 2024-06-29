@@ -72,8 +72,8 @@ importers:
         specifier: 1.3.1
         version: 1.3.1(prettier@3.2.5)
       solhint:
-        specifier: 4.5.2
-        version: 4.5.2
+        specifier: 5.0.1
+        version: 5.0.1
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@20.14.9)(typescript@5.4.4)
@@ -612,9 +612,6 @@ packages:
 
   '@types/node@18.15.13':
     resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
-
-  '@types/node@20.12.5':
-    resolution: {integrity: sha512-BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==}
 
   '@types/node@20.14.9':
     resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
@@ -2450,8 +2447,8 @@ packages:
     resolution: {integrity: sha512-85EeLbmkcPwD+3JR7aEMKsVC9YrRSxd4qkXuMzrlf7+z2Eqdfm1wHWq1ffTuo5aDhoZxp2I9yF3QkxZOxOL7aQ==}
     hasBin: true
 
-  solhint@4.5.2:
-    resolution: {integrity: sha512-o7MNYS5QPgE6l+PTGOTAUtCzo0ZLnffQsv586hntSHBe2JbSDfkoxfhAOcjZjN4OesTgaX4UEEjCjH9y/4BP5w==}
+  solhint@5.0.1:
+    resolution: {integrity: sha512-QeQLS9HGCnIiibt+xiOa/+MuP7BWz9N7C5+Mj9pLHshdkNhuo3AzCpWmjfWVZBUuwIUO3YyCRVIcYLR3YOKGfg==}
     hasBin: true
 
   solidity-comments-extractor@0.0.8:
@@ -3581,16 +3578,16 @@ snapshots:
 
   '@types/concat-stream@1.6.1':
     dependencies:
-      '@types/node': 20.12.5
+      '@types/node': 20.14.9
 
   '@types/form-data@0.0.33':
     dependencies:
-      '@types/node': 20.12.5
+      '@types/node': 20.14.9
 
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.12.5
+      '@types/node': 20.14.9
 
   '@types/http-cache-semantics@4.0.1': {}
 
@@ -3603,10 +3600,6 @@ snapshots:
   '@types/node@10.17.60': {}
 
   '@types/node@18.15.13': {}
-
-  '@types/node@20.12.5':
-    dependencies:
-      undici-types: 5.26.5
 
   '@types/node@20.14.9':
     dependencies:
@@ -5715,7 +5708,7 @@ snapshots:
     optionalDependencies:
       prettier: 2.8.8
 
-  solhint@4.5.2:
+  solhint@5.0.1:
     dependencies:
       '@solidity-parser/parser': 0.18.0
       ajv: 6.12.6
