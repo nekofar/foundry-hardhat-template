@@ -66,7 +66,7 @@ jobs:
           version: nightly
 
       - name: Install pnpm package manager
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@v4.0.0
         id: pnpm-install
         with:
           version: ^8
