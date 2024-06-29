@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.19] - 2024-06-29
+
+### Miscellaneous Tasks
+
+- Update SPDX license identifier
+
 ## [1.0.0-alpha.18] - 2024-06-29
 
 ### Bug Fixes
