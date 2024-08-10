@@ -35,7 +35,7 @@
     "@nomiclabs/hardhat-solhint": "4.0.0",
     "@typechain/ethers-v6": "0.5.1",
     "@typechain/hardhat": "9.1.0",
-    "@types/chai": "4.3.11",
+    "@types/chai": "4.2.22",
     "@types/mocha": "10.0.7",
     "@types/node": "22.2.0",
     "chai": "4.2.0",
