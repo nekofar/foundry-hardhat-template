@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.24] - 2024-08-12
+
+### Miscellaneous Tasks
+
+- Update Node.js version in build workflow
+- Enable optimizer and viaIR for solidity
+- Enable `via_ir` for Solidity compiler
+- Add new prettier plugins
+
 ## [1.0.0-alpha.23] - 2024-08-10
 
 ### Bug Fixes

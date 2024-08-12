@@ -4,7 +4,16 @@ import "@nomicfoundation/hardhat-foundry";
 import "@nomiclabs/hardhat-solhint";
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.26",
+  solidity: {
+    version: "0.8.26",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+      viaIR: true, // Enable the via-ir pipeline
+    },
+  },
 };
 
 export default config;
