@@ -16,6 +16,16 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      ds-test:
+        specifier: github:dapphub/ds-test
+        version: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0
+      forge-std:
+        specifier: github:foundry-rs/forge-std
+        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/bf6606142994b1e47e2882ce0cd477c020d77623
+      solidity-stringutils:
+        specifier: github:Arachnid/solidity-stringutils
+        version: https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461
     devDependencies:
       '@nomicfoundation/hardhat-chai-matchers':
         specifier: 2.0.7
@@ -1049,6 +1059,10 @@ packages:
     resolution: {integrity: sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==}
     engines: {node: '>=8'}
 
+  ds-test@https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0:
+    resolution: {tarball: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0}
+    version: 1.0.0
+
   elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
 
@@ -1225,6 +1239,10 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+
+  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/bf6606142994b1e47e2882ce0cd477c020d77623:
+    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/bf6606142994b1e47e2882ce0cd477c020d77623}
+    version: 1.9.2
 
   form-data-encoder@2.1.4:
     resolution: {integrity: sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw==}
@@ -2221,6 +2239,10 @@ packages:
     hasBin: true
     peerDependencies:
       hardhat: ^2.11.0
+
+  solidity-stringutils@https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461:
+    resolution: {tarball: https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461}
+    version: 0.0.0
 
   sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
@@ -3760,6 +3782,8 @@ snapshots:
     dependencies:
       path-type: 4.0.0
 
+  ds-test@https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0: {}
+
   elliptic@6.5.4:
     dependencies:
       bn.js: 4.12.0
@@ -4027,6 +4051,8 @@ snapshots:
   follow-redirects@1.15.6(debug@4.3.6):
     optionalDependencies:
       debug: 4.3.6(supports-color@8.1.1)
+
+  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/bf6606142994b1e47e2882ce0cd477c020d77623: {}
 
   form-data-encoder@2.1.4: {}
 
@@ -5112,6 +5138,8 @@ snapshots:
       semver: 7.6.3
       shelljs: 0.8.5
       web3-utils: 1.10.4
+
+  solidity-stringutils@https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461: {}
 
   sort-object-keys@1.1.3: {}
 
