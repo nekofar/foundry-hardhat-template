@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.25] - 2024-08-13
+
+### Miscellaneous Tasks
+
+- Simplify pre-commit hook
+- Add `rpc_endpoints` and `etherscan` sections
+
+### Styling
+
+- Add TOML file settings
+
 ## [1.0.0-alpha.24] - 2024-08-12
 
 ### Miscellaneous Tasks
