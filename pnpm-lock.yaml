@@ -18,13 +18,13 @@ importers:
   .:
     dependencies:
       ds-test:
-        specifier: github:dapphub/ds-test
+        specifier: dapphub/ds-test
         version: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0
       forge-std:
-        specifier: github:foundry-rs/forge-std
+        specifier: foundry-rs/forge-std
         version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/bf6606142994b1e47e2882ce0cd477c020d77623
       solidity-stringutils:
-        specifier: github:Arachnid/solidity-stringutils
+        specifier: Arachnid/solidity-stringutils
         version: https://codeload.github.com/Arachnid/solidity-stringutils/tar.gz/4b2fcc43fa0426e19ce88b1f1ec16f5903a2e461
     devDependencies:
       '@nomicfoundation/hardhat-chai-matchers':
