@@ -53,7 +53,7 @@
     "@types/mocha": "10.0.7",
     "@types/node": "22.2.0",
     "chai": "4.5.0",
-    "ethers": "6.13.2",
+    "ethers": "6.13.4",
     "hardhat": "2.22.8",
     "husky": "9.1.7",
     "lint-staged": "15.2.10",
