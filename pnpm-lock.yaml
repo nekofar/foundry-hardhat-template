@@ -43,8 +43,8 @@ importers:
         specifier: 5.0.0
         version: 5.0.0(wn3bo6wcuxge22yjs3oie3xzvq)
       '@nomiclabs/hardhat-solhint':
-        specifier: 4.0.0
-        version: 4.0.0(hardhat@2.22.8(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.7.2))(typescript@5.7.2))(typescript@5.7.2)
+        specifier: 4.0.1
+        version: 4.0.1(hardhat@2.22.8(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.7.2))(typescript@5.7.2))(typescript@5.7.2)
       '@typechain/ethers-v6':
         specifier: 0.5.1
         version: 0.5.1(ethers@6.13.2)(typechain@8.3.2(typescript@5.7.2))(typescript@5.7.2)
@@ -435,10 +435,10 @@ packages:
     resolution: {integrity: sha512-q4n32/FNKIhQ3zQGGw5CvPF6GTvDCpYwIf7bEY/dZTZbgfDsHyjJwURxUJf3VQuuJj+fDIFl4+KkBVbw4Ef6jA==}
     engines: {node: '>= 12'}
 
-  '@nomiclabs/hardhat-solhint@4.0.0':
-    resolution: {integrity: sha512-TuHkhjMJv8KT575bpWjkjnNQIIjjZy5taQlf/dmMUYkjEjgToT35QntilmyRvRCfcvexDzrfxNAVoQwTIcTYfg==}
+  '@nomiclabs/hardhat-solhint@4.0.1':
+    resolution: {integrity: sha512-ekfbbGfUwMZGr9aPAurPa7GVMX/6XqKemppVEez+mC36H7G5UyBsnrUKZMhMDVHG9S7+ke9sLuaibnWvpdSrQA==}
     peerDependencies:
-      hardhat: ^2.22.72.0.0
+      hardhat: ^2.0.0
 
   '@pkgr/core@0.1.1':
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
@@ -3149,7 +3149,7 @@ snapshots:
       '@nomicfoundation/solidity-analyzer-linux-x64-musl': 0.1.2
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.2
 
-  '@nomiclabs/hardhat-solhint@4.0.0(hardhat@2.22.8(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.7.2))(typescript@5.7.2))(typescript@5.7.2)':
+  '@nomiclabs/hardhat-solhint@4.0.1(hardhat@2.22.8(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.7.2))(typescript@5.7.2))(typescript@5.7.2)':
     dependencies:
       hardhat: 2.22.8(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.7.2))(typescript@5.7.2)
       solhint: 5.0.3(typescript@5.7.2)
