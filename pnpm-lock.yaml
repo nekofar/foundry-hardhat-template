@@ -82,8 +82,8 @@ importers:
         specifier: 2.5.6
         version: 2.5.6(prettier@3.4.2)
       prettier-plugin-solidity:
-        specifier: 1.4.1
-        version: 1.4.1(prettier@3.4.2)
+        specifier: 1.4.2
+        version: 1.4.2(prettier@3.4.2)
       prettier-plugin-toml:
         specifier: 2.0.1
         version: 2.0.1(prettier@3.4.2)
@@ -584,9 +584,6 @@ packages:
 
   '@types/node@10.17.60':
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
-
-  '@types/node@22.10.4':
-    resolution: {integrity: sha512-99l6wv4HEzBQhvaU/UGoeBoCK61SCROQaCCGyQSgX2tEQ3rKkNZ2S7CEWnS/4s1LV+8ODdK21UeyR1fHP2mXug==}
 
   '@types/node@22.10.5':
     resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
@@ -1959,9 +1956,9 @@ packages:
       prettier:
         optional: true
 
-  prettier-plugin-solidity@1.4.1:
-    resolution: {integrity: sha512-Mq8EtfacVZ/0+uDKTtHZGW3Aa7vEbX/BNx63hmVg6YTiTXSiuKP0amj0G6pGwjmLaOfymWh3QgXEZkjQbU8QRg==}
-    engines: {node: '>=16'}
+  prettier-plugin-solidity@1.4.2:
+    resolution: {integrity: sha512-VVD/4XlDjSzyPWWCPW8JEleFa8JNKFYac5kNlMjVXemQyQZKfpekPMhFZSePuXB6L+RixlFvWe20iacGjFYrLw==}
+    engines: {node: '>=18'}
     peerDependencies:
       prettier: '>=2.3.0'
 
@@ -3288,16 +3285,16 @@ snapshots:
 
   '@types/concat-stream@1.6.1':
     dependencies:
-      '@types/node': 22.10.4
+      '@types/node': 22.10.5
 
   '@types/form-data@0.0.33':
     dependencies:
-      '@types/node': 22.10.4
+      '@types/node': 22.10.5
 
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 22.10.4
+      '@types/node': 22.10.5
 
   '@types/http-cache-semantics@4.0.4': {}
 
@@ -3308,10 +3305,6 @@ snapshots:
   '@types/mocha@10.0.10': {}
 
   '@types/node@10.17.60': {}
-
-  '@types/node@22.10.4':
-    dependencies:
-      undici-types: 6.20.0
 
   '@types/node@22.10.5':
     dependencies:
@@ -4791,9 +4784,9 @@ snapshots:
     optionalDependencies:
       prettier: 3.4.2
 
-  prettier-plugin-solidity@1.4.1(prettier@3.4.2):
+  prettier-plugin-solidity@1.4.2(prettier@3.4.2):
     dependencies:
-      '@solidity-parser/parser': 0.18.0
+      '@solidity-parser/parser': 0.19.0
       prettier: 3.4.2
       semver: 7.6.3
 
