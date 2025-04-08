@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.33] - 2025-04-08
+
+### Miscellaneous Tasks
+
+- Remove unused `version` input in pnpm setup
+
 ## [1.0.0-alpha.32] - 2025-04-08
 
 ### Miscellaneous Tasks
