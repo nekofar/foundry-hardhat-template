@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.32",
+  "version": "1.0.0-alpha.33",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "keywords": [],
   "license": "Apache-2.0",
@@ -33,7 +33,8 @@
     "minimatch": ">=3.0.5",
     "request": ">=2.88.2",
     "tough-cookie": ">=4.1.3",
-    "word-wrap": ">=1.2.4"
+    "word-wrap": ">=1.2.4",
+    "elliptic": ">=6.6.1"
   },
   "dependencies": {
     "ds-test": "dapphub/ds-test",
