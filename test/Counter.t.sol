@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-pragma solidity ^0.8.26;
+pragma solidity ^0.8.29;
 
 import { Test, console } from "forge-std/Test.sol";
 import { Counter } from "../src/Counter.sol";
