@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.0.0-alpha.30",
+  "version": "1.0.0-alpha.31",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "keywords": [],
   "license": "Apache-2.0",
@@ -51,23 +51,24 @@
     "@typechain/hardhat": "9.1.0",
     "@types/chai": "4.2.22",
     "@types/mocha": "10.0.10",
-    "@types/node": "22.10.2",
+    "@types/node": "22.14.0",
     "chai": "4.5.0",
-    "ethers": "6.13.4",
-    "hardhat": "2.22.17",
+    "ethers": "6.13.5",
+    "hardhat": "2.22.19",
     "husky": "9.1.7",
-    "lint-staged": "15.3.0",
-    "prettier": "3.4.2",
-    "prettier-plugin-packagejson": "2.5.6",
-    "prettier-plugin-solidity": "1.4.1",
-    "prettier-plugin-toml": "2.0.1",
-    "solhint": "5.0.3",
+    "lint-staged": "15.5.0",
+    "prettier": "3.5.3",
+    "prettier-plugin-packagejson": "2.5.10",
+    "prettier-plugin-solidity": "1.4.2",
+    "prettier-plugin-toml": "2.0.3",
+    "solhint": "5.0.5",
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
-    "typescript": "5.7.2"
+    "typescript": "5.8.2"
   },
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
-  }
+  },
+  "packageManager": "pnpm@10.2.1"
 }
