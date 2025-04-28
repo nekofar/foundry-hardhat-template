@@ -83,8 +83,8 @@ importers:
         specifier: 2.5.10
         version: 2.5.10(prettier@3.5.3)
       prettier-plugin-solidity:
-        specifier: 1.4.2
-        version: 1.4.2(prettier@3.5.3)
+        specifier: 1.4.3
+        version: 1.4.3(prettier@3.5.3)
       prettier-plugin-toml:
         specifier: 2.0.4
         version: 2.0.4(prettier@3.5.3)
@@ -506,6 +506,9 @@ packages:
 
   '@solidity-parser/parser@0.19.0':
     resolution: {integrity: sha512-RV16k/qIxW/wWc+mLzV3ARyKUaMUTBy9tOLMzFhtNSKYeTAanQ3a5MudJKf/8arIFnA2L27SNjarQKmFg0w/jA==}
+
+  '@solidity-parser/parser@0.20.1':
+    resolution: {integrity: sha512-58I2sRpzaQUN+jJmWbHfbWf9AKfzqCI8JAdFB0vbyY+u8tBRcuTt9LxzasvR0LGQpcRv97eyV7l61FQ3Ib7zVw==}
 
   '@szmarczak/http-timer@5.0.1':
     resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==}
@@ -1982,8 +1985,8 @@ packages:
       prettier:
         optional: true
 
-  prettier-plugin-solidity@1.4.2:
-    resolution: {integrity: sha512-VVD/4XlDjSzyPWWCPW8JEleFa8JNKFYac5kNlMjVXemQyQZKfpekPMhFZSePuXB6L+RixlFvWe20iacGjFYrLw==}
+  prettier-plugin-solidity@1.4.3:
+    resolution: {integrity: sha512-Mrr/iiR9f9IaeGRMZY2ApumXcn/C5Gs3S7B7hWB3gigBFML06C0yEyW86oLp0eqiA0qg+46FaChgLPJCj/pIlg==}
     engines: {node: '>=18'}
     peerDependencies:
       prettier: '>=2.3.0'
@@ -3264,6 +3267,8 @@ snapshots:
   '@solidity-parser/parser@0.18.0': {}
 
   '@solidity-parser/parser@0.19.0': {}
+
+  '@solidity-parser/parser@0.20.1': {}
 
   '@szmarczak/http-timer@5.0.1':
     dependencies:
@@ -4823,11 +4828,11 @@ snapshots:
     optionalDependencies:
       prettier: 3.5.3
 
-  prettier-plugin-solidity@1.4.2(prettier@3.5.3):
+  prettier-plugin-solidity@1.4.3(prettier@3.5.3):
     dependencies:
-      '@solidity-parser/parser': 0.19.0
+      '@solidity-parser/parser': 0.20.1
       prettier: 3.5.3
-      semver: 7.6.3
+      semver: 7.7.1
 
   prettier-plugin-toml@2.0.4(prettier@3.5.3):
     dependencies:
