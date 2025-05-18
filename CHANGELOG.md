@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.34] - 2025-05-18
+
+### Features
+
+- Add `clean` scripts for project cleanup
+
 ## [1.0.0-alpha.33] - 2025-04-08
 
 ### Miscellaneous Tasks
