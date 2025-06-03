@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-alpha.0] - 2025-06-03
+
+### Refactor
+
+- Update tests to use `viem` and `toolbox-viem`
+- Reformat `Counter` tests for consistent style
+- Simplify forge test verbosity level
+
 ## [1.0.0-alpha.36] - 2025-05-22
 
 ### Miscellaneous Tasks
