@@ -56,7 +56,6 @@
     "@nomicfoundation/hardhat-verify": "2.0.13",
     "@nomicfoundation/hardhat-viem": "2.0.6",
     "@nomiclabs/hardhat-solhint": "4.0.1",
-    "@typechain/ethers-v6": "0.5.1",
     "@typechain/hardhat": "9.1.0",
     "@types/chai": "4.2.22",
     "@types/chai-as-promised": "7.1.8",
