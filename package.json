@@ -75,7 +75,7 @@
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
     "typescript": "5.8.3",
-    "viem": "2.31.7"
+    "viem": "2.32.0"
   },
   "packageManager": "pnpm@10.2.1",
   "engines": {
