@@ -74,7 +74,7 @@
     "solhint": "6.0.0",
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
-    "typescript": "5.8.3",
+    "typescript": "5.9.2",
     "viem": "2.32.0"
   },
   "packageManager": "pnpm@10.2.1",
