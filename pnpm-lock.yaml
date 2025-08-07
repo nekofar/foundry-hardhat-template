@@ -35,8 +35,8 @@ importers:
         specifier: 2.0.8
         version: 2.0.8(@nomicfoundation/hardhat-ethers@3.0.8(ethers@6.14.3)(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2)))(chai@4.5.0)(ethers@6.14.3)(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))
       '@nomicfoundation/hardhat-foundry':
-        specifier: 1.1.4
-        version: 1.1.4(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))
+        specifier: 1.2.0
+        version: 1.2.0(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))
       '@nomicfoundation/hardhat-ignition':
         specifier: 0.15.12
         version: 0.15.12(@nomicfoundation/hardhat-verify@2.0.14(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2)))(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))
@@ -374,10 +374,10 @@ packages:
       ethers: ^6.1.0
       hardhat: ^2.0.0
 
-  '@nomicfoundation/hardhat-foundry@1.1.4':
-    resolution: {integrity: sha512-jpKyOr8bYKJPCuxJIJGOJzzyQPLcLJYq+kLPx135dkgCXyHiFdbSaGA9AEwqsPf97wlwXkskXGn4a21XOkSOPg==}
+  '@nomicfoundation/hardhat-foundry@1.2.0':
+    resolution: {integrity: sha512-2AJQLcWnUk/iQqHDVnyOadASKFQKF1PhNtt1cONEQqzUPK+fqME1IbP+EKu+RkZTRcyc4xqUMaB0sutglKRITg==}
     peerDependencies:
-      hardhat: ^2.17.2
+      hardhat: ^2.26.0
 
   '@nomicfoundation/hardhat-ignition-viem@0.15.12':
     resolution: {integrity: sha512-IGaF6BFMbKh88yxrBcMSPNogp4Nzo6MSDIdyDTzxj781x7J0JGodspESYbX58ksPAaJ8rbSMUFRvSy6XZR6o6Q==}
@@ -3175,7 +3175,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-foundry@1.1.4(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))':
+  '@nomicfoundation/hardhat-foundry@1.2.0(hardhat@2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2))':
     dependencies:
       hardhat: 2.26.1(ts-node@10.9.2(@types/node@24.2.0)(typescript@5.9.2))(typescript@5.9.2)
       picocolors: 1.1.1
