@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-alpha.8] - 2025-08-17
+
+### Miscellaneous Tasks
+
+- Simplify ignore rules for updates
+
 ## [1.1.0-alpha.7] - 2025-07-13
 
 ### Bug Fixes
