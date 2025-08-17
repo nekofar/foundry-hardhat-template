@@ -84,15 +84,6 @@ updates:
           - "wagmi"
     # List of packages to ignore for specific update types
     ignore:
-      - dependency-name: "chai"
-        update-types:
-          - "version-update:semver-major"
-      - dependency-name: "@type/chai"
-        update-types:
-          - "version-update:semver-major"
-      - dependency-name: "@types/chai-as-promised"
-        update-types:
-          - "version-update:semver-major"
-      - dependency-name: "hardhat-gas-reporter"
+      - dependency-name: "*"
         update-types:
           - "version-update:semver-major"
