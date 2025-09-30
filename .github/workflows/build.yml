@@ -55,11 +55,6 @@ jobs:
       - name: Checking out repository code
         uses: actions/checkout@v5.0.0
 
-      - name: Setup Node.js Environment
-        uses: actions/setup-node@v4.4.0
-        with:
-          node-version: ^20
-
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1.4.0
         with:
@@ -74,18 +69,11 @@ jobs:
         with:
           run_install: false
 
-      - name: Capture pnpm store directory
-        id: pnpm-cache
-        run: |
-          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - name: Cache pnpm Store
-        uses: actions/cache@v4.3.0
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4.4.0
         with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }} # The path of the directory to cache.
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }} # An explicit key for restoring and saving the cache.
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+          cache: pnpm
+          node-version: ^20
 
       # Installs all dependencies specified in the project's package.json file.
       - name: Install pnpm dependencies
