@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-alpha.13] - 2025-09-30
+
+### Miscellaneous Tasks
+
+- Update node.js setup cache configuration
+- Add `develop` branch to build triggers
+
 ## [1.1.0-alpha.12] - 2025-09-29
 
 ### Bug Fixes
