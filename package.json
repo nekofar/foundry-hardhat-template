@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.1.0-beta.1",
+  "version": "1.1.0-beta.2",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "keywords": [],
   "license": "Apache-2.0",
@@ -65,7 +65,7 @@
     "@types/chai": "4.2.22",
     "@types/chai-as-promised": "7.1.8",
     "@types/mocha": "10.0.10",
-    "@types/node": "24.6.0",
+    "@types/node": "24.6.1",
     "chai": "4.5.0",
     "hardhat": "2.26.3",
     "hardhat-gas-reporter": "1.0.10",
@@ -78,7 +78,7 @@
     "solhint": "6.0.1",
     "ts-node": "10.9.2",
     "typechain": "8.3.2",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "viem": "2.37.9"
   },
   "packageManager": "pnpm@10.2.1",
