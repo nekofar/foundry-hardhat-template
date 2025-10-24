@@ -46,19 +46,19 @@ importers:
         version: 0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
       '@nomicfoundation/hardhat-ignition-viem':
         specifier: 0.15.13
-        version: 0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.3(typescript@5.9.3))
+        version: 0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.4(typescript@5.9.3))
       '@nomicfoundation/hardhat-network-helpers':
         specifier: 1.1.0
         version: 1.1.0(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: 3.0.0
-        version: 3.0.0(d5cd26ae6aaca09486c7336c3bf0f8bf)
+        version: 3.0.0(cdfa0c5666c6b9d7391c42f58137ec03)
       '@nomicfoundation/hardhat-verify':
         specifier: 2.1.1
         version: 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
       '@nomicfoundation/hardhat-viem':
         specifier: 2.1.1
-        version: 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3))
+        version: 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3))
       '@nomiclabs/hardhat-solhint':
         specifier: 4.1.0
         version: 4.1.0(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)
@@ -117,8 +117,8 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       viem:
-        specifier: 2.38.3
-        version: 2.38.3(typescript@5.9.3)
+        specifier: 2.38.4
+        version: 2.38.4(typescript@5.9.3)
 
 packages:
 
@@ -2646,8 +2646,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  viem@2.38.3:
-    resolution: {integrity: sha512-By2TutLv07iNHHtWqHHzjGipevYsfGqT7KQbGEmqLco1qTJxKnvBbSviqiu6/v/9REV6Q/FpmIxf2Z7/l5AbcQ==}
+  viem@2.38.4:
+    resolution: {integrity: sha512-qnyPNg6Lz1EEC86si/1dq7GlOyZVFHSgAW+p8Q31R5idnAYCOdTM2q5KLE4/ykMeMXzY0bnp5MWTtR/wjCtWmQ==}
     peerDependencies:
       typescript: '>=5.0.4'
     peerDependenciesMeta:
@@ -3180,13 +3180,13 @@ snapshots:
       hardhat: 2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)
       picocolors: 1.1.1
 
-  '@nomicfoundation/hardhat-ignition-viem@0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.3(typescript@5.9.3))':
+  '@nomicfoundation/hardhat-ignition-viem@0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.4(typescript@5.9.3))':
     dependencies:
       '@nomicfoundation/hardhat-ignition': 0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
-      '@nomicfoundation/hardhat-viem': 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3))
+      '@nomicfoundation/hardhat-viem': 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3))
       '@nomicfoundation/ignition-core': 0.15.13
       hardhat: 2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)
-      viem: 2.38.3(typescript@5.9.3)
+      viem: 2.38.4(typescript@5.9.3)
 
   '@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))':
     dependencies:
@@ -3209,12 +3209,12 @@ snapshots:
       ethereumjs-util: 7.1.5
       hardhat: 2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)
 
-  '@nomicfoundation/hardhat-toolbox-viem@3.0.0(d5cd26ae6aaca09486c7336c3bf0f8bf)':
+  '@nomicfoundation/hardhat-toolbox-viem@3.0.0(cdfa0c5666c6b9d7391c42f58137ec03)':
     dependencies:
-      '@nomicfoundation/hardhat-ignition-viem': 0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.3(typescript@5.9.3))
+      '@nomicfoundation/hardhat-ignition-viem': 0.15.13(@nomicfoundation/hardhat-ignition@0.15.13(@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)))(@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3)))(@nomicfoundation/ignition-core@0.15.13)(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(viem@2.38.4(typescript@5.9.3))
       '@nomicfoundation/hardhat-network-helpers': 1.1.0(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
       '@nomicfoundation/hardhat-verify': 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
-      '@nomicfoundation/hardhat-viem': 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3))
+      '@nomicfoundation/hardhat-viem': 2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3))
       '@types/chai': 4.2.22
       '@types/chai-as-promised': 7.1.8
       '@types/mocha': 10.0.10
@@ -3226,7 +3226,7 @@ snapshots:
       solidity-coverage: 0.8.12(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))
       ts-node: 10.9.2(@types/node@24.9.1)(typescript@5.9.3)
       typescript: 5.9.3
-      viem: 2.38.3(typescript@5.9.3)
+      viem: 2.38.4(typescript@5.9.3)
 
   '@nomicfoundation/hardhat-verify@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))':
     dependencies:
@@ -3243,12 +3243,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.3(typescript@5.9.3))':
+  '@nomicfoundation/hardhat-viem@2.1.1(hardhat@2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3))(typescript@5.9.3)(viem@2.38.4(typescript@5.9.3))':
     dependencies:
       abitype: 0.9.10(typescript@5.9.3)
       hardhat: 2.26.3(ts-node@10.9.2(@types/node@24.9.1)(typescript@5.9.3))(typescript@5.9.3)
       lodash.memoize: 4.1.2
-      viem: 2.38.3(typescript@5.9.3)
+      viem: 2.38.4(typescript@5.9.3)
     transitivePeerDependencies:
       - typescript
       - zod
@@ -5663,7 +5663,7 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  viem@2.38.3(typescript@5.9.3):
+  viem@2.38.4(typescript@5.9.3):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
