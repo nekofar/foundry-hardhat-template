@@ -59,7 +59,7 @@
     "@nomicfoundation/hardhat-network-helpers": "1.1.2",
     "@nomicfoundation/hardhat-toolbox-viem": "3.0.0",
     "@nomicfoundation/hardhat-verify": "2.1.3",
-    "@nomicfoundation/hardhat-viem": "2.1.2",
+    "@nomicfoundation/hardhat-viem": "2.1.3",
     "@nomiclabs/hardhat-solhint": "4.1.0",
     "@typechain/hardhat": "9.1.0",
     "@types/chai": "4.2.22",
