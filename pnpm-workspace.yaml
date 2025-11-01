@@ -1,0 +1,7 @@
+enablePrePostScripts: true
+
+engineStrict: true
+
+nodeLinker: hoisted
+
+saveExact: true
