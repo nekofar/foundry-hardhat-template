@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0-beta.3] - 2025-11-01
+
+### Miscellaneous Tasks
+
+- Bump package manager to 10.20.0
+- Migrate pnpm settings to workspace
+
 ## [1.1.0-beta.2] - 2025-10-02
 
 ### Bug Fixes
