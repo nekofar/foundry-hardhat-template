@@ -1,6 +1,6 @@
 {
   "name": "foundry-hardhat-template",
-  "version": "1.1.0-beta.5",
+  "version": "1.1.0-beta.6",
   "description": "A template for create smart contracts using Foundry and Hardhat.",
   "keywords": [],
   "license": "Apache-2.0",
@@ -81,9 +81,9 @@
     "typescript": "5.9.3",
     "viem": "2.43.3"
   },
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@10.26.2",
   "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=9.0.0"
+    "node": "^22",
+    "pnpm": "^10"
   }
 }
